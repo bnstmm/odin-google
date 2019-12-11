@@ -1,2 +1,3 @@
-Using the Odin Project lesson plan for the intro to Web Development, this is the basic HTML/CSS lesson
 # Odin Project - replicate google search page
+
+Need to better separate out style groups for less redundancy and to keep groups positioning better.
