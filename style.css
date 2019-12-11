@@ -1,0 +1,78 @@
+#navigation {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 200px;
+}
+
+#tool-bar{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 200px;
+}
+
+#footer-business{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 350px;
+}
+
+#footer-settings{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 200px;
+}
+
+#logo{
+	margin-left: 200px;
+}
+
+body {
+	/*background: white url(http://www.htmldog.com/images/bg.gif) no-repeat top right; */
+	/* can also tile with repeat, repeat-y, repeat-x */
+}
+
+a:link {
+	color: black;
+	text-decoration: none;
+}
+
+a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	color: purple;
+	text-decoration: underline;
+}
+
+input:focus, textarea:focus {
+	background: #eee;
+}
+
+/* below acts on the first paragraph element in page only 
+p:first-child {
+	font-weight: bold;
+	font-size: 40px;
+} */
+
+/* can set all margins in one line as below for top, right, bottom, left 
+p {
+	margin: 1px 5px 10px 20px;
+} */
+/* can use padding same way. If you give only two values, first will cover top/bottom, second for left/right */
+
+/* border can also use this, and can even combine width and color into same line 
+p { 
+	border: 1px red solid;
+} */
+
+/* below combines font-style, weight, size, line-height, and font-family 
+p {
+	font: 14px/1.5 "Times New Roman", times, serif;
+} */
+
