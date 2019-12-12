@@ -1,0 +1,100 @@
+* {
+	box-sizing: border-box;
+}
+
+.column {
+	/*float: left;*/
+	padding: 10px;
+}
+
+.left {
+	width: 25%;
+	float: left;
+}
+
+.right {
+	width: 25%;
+	float: right;
+
+.middle { 
+	width: 50%;
+}
+
+.navigation, .footer {
+	padding: 10px;
+}
+
+/* clears floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+.searchbutton {
+	background-color: blue;
+	border: 1px solid grey;
+	border-radius: 7px;
+	color: white;
+	padding: 10px 25px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.luckybutton {
+	background-color: white;
+	border: 1px solid grey;
+	border-radius: 7px;
+	color: blue;
+	padding: 10px 25px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+body {
+	/*background: white url(http://www.htmldog.com/images/bg.gif) no-repeat top right; */
+	/* can also tile with repeat, repeat-y, repeat-x */
+}
+
+a:link {
+	color: black;
+	text-decoration: none;
+}
+
+a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	color: purple;
+	text-decoration: underline;
+}
+
+input:focus, textarea:focus {
+	background: #eee;
+}
+
+/* below acts on the first paragraph element in page only 
+p:first-child {
+	font-weight: bold;
+	font-size: 40px;
+} */
+
+/* can set all margins in one line as below for top, right, bottom, left 
+p {
+	margin: 1px 5px 10px 20px;
+} */
+/* can use padding same way. If you give only two values, first will cover top/bottom, second for left/right */
+
+/* border can also use this, and can even combine width and color into same line 
+p { 
+	border: 1px red solid;
+} */
+
+/* below combines font-style, weight, size, line-height, and font-family 
+p {
+	font: 14px/1.5 "Times New Roman", times, serif;
+} */
+
